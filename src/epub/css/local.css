@@ -6,7 +6,27 @@
 	font-style: italic;
 }
 
+#chapter-2 q{
+	font-style: italic;
+}
+
+#chapter-19 q{
+	font-style: italic;
+}
+
+#chapter-22 q{
+	font-style: italic;
+}
+
+#chapter-28 q{
+	font-style: italic;
+}
+
 #chapter-33 blockquote{
 	font-variant: small-caps;
 	text-align: center;
+}
+
+#chapter-33 q{
+	font-style: italic;
 }
