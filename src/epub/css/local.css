@@ -2,6 +2,10 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
@@ -43,4 +47,9 @@ p span.i1{
 #chapter-33 blockquote{
 	font-variant: small-caps;
 	text-align: center;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
 }
